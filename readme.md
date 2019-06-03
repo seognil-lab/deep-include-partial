@@ -2,7 +2,7 @@
 
 A check function primarily for test frameworks.
 
-## 📦 Get Started
+## 📦 Getting Started
 
 **Installation**
 
@@ -137,6 +137,10 @@ npm i
 npm run test:watch
 ```
 
+---
+
 ## 📜 References
+
+---
 
 ## 🕗 TODO

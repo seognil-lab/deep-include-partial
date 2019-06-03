@@ -1,35 +1,5 @@
 import { has, isArray, isEqual, isObject, isPlainObject } from 'lodash/fp';
 
-// * ----------------
-
-// ! mocha/chai `deepInclude` function missed a feature，
-// * like code down here, it's not support partial check,
-// * if the child level of object is not totally same,
-// * it would fail.
-// * my lib is to sovle this.
-
-// it('chai origin api test', () => {
-//     assert.deepInclude(
-//         { length: { valid: false, errMsg: 'error' } },
-//         { length: { valid: false } }
-//     )
-// })
-
-// * ----------------
-
-// * Only if every child value is simple type or object or array
-// * simple type can not check directly (just use `isEqual` or else instead)
-// * Array directly check is not supported (just use `isEqual` or else instead)
-// * Array check will call comparator(isEqual) (use ANY and make more check outside if you like)
-// * complicated object (cyclic object, array-like) is not well tested and supported
-
-// * ANY, any type (like TypeScript)
-// * Void. no data (like TypeScript)
-
-// * check the `check-fit.test.js`
-
-// * ----------------
-
 const ANY = Symbol('ANY');
 const VOID = Symbol('VOID');
 
