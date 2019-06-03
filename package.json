@@ -1,10 +1,10 @@
 {
     "name": "deep-include-partial",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
     "license": "MIT",
-    "description": "A quick lib starter for npm package develop and publish.",
+    "description": "A check function primarily for test frameworks.",
     "author": "Seognil LC",
     "homepage": "https://github.com/seognil-lab/deep-include-partial",
     "scripts": {

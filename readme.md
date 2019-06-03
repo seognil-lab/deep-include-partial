@@ -1,6 +1,6 @@
 ## ⭐️ What
 
-a check function primarily for test frameworks.
+A check function primarily for test frameworks.
 
 ## 📦 Get Started
 
