@@ -7,9 +7,9 @@ A check function primarily for test frameworks.
 **Installation**
 
 ```shell
-npm install –-save-dev deep-include-partial
+npm install deep-include-partial
 # or
-yarn add -D deep-include-partial
+yarn add deep-include-partial
 ```
 
 **Usage**
