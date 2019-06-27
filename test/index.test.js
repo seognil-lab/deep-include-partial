@@ -1,5 +1,5 @@
 const { assert } = require('chai');
-const { ANY, VOID, deepIncludePartial } = require('../dist/index.cjs');
+const { ANY, VOID, deepIncludePartial } = require('../dist');
 
 const checkFit = (data, pattern, equal = true) =>
     assert(deepIncludePartial(data, pattern) === equal, '错误');

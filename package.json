@@ -1,8 +1,8 @@
 {
     "name": "deep-include-partial",
     "version": "1.0.2",
-    "main": "dist/index.cjs.js",
-    "module": "dist/index.esm.js",
+    "main": "dist/index.js",
+    "module": "src/index.js",
     "license": "MIT",
     "description": "A check function primarily for test frameworks.",
     "author": "Seognil LC",
@@ -38,6 +38,7 @@
         "babel-eslint": "^10.0.1",
         "babel-jest": "^24.8.0",
         "chai": "^4.2.0",
+        "del": "^4.1.1",
         "eslint": "^5.16.0",
         "eslint-config-airbnb": "^17.1.0",
         "eslint-config-prettier": "^4.3.0",
@@ -55,6 +56,7 @@
         "prettier": "^1.17.1",
         "pretty-quick": "^1.11.0",
         "rollup": "^1.12.4",
+        "rollup-plugin-babel": "^4.3.2",
         "rollup-plugin-terser": "^5.0.0"
     },
     "dependencies": {
